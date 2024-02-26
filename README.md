@@ -3,6 +3,8 @@
 ## Tarefas
 
 - [ ] Header
+    - [x] HTML
+    - [ ] CSS
 - [ ] Apresentação
 - [ ] Tutorial iniciante
 - [ ] Formulas avançadas
