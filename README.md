@@ -4,7 +4,7 @@
 
 - [ ] Header
     - [x] HTML
-    - [ ] CSS
+    - [x] CSS
 - [ ] Apresentação
 - [ ] Tutorial iniciante
 - [ ] Formulas avançadas
