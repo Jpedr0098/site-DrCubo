@@ -1,9 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Mitr:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic+Coding&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+    --color-white: #E8E9ED;
+    --color-black: #1D1916;
+    --color-body: #ECE2D0;
+    --color-destaque: #89023E;
+
+    --font-title: "Koulen","Montserrat", sans-serif;
+    --font-subtitle: "Mitr", sans-serif;;
+    --font-body: "Nanum Gothic Coding", "Poppins", monospace;;
+}
+
+header {
+    height: 100vh;
+}
+
 header::before {
     content: "";
-    background-color: #89023E;
     background-image: url("../images/header_DrCubo.png");
+    background-size: cover;
     height: 100vh;
     width: 100vw;
     display: block;
@@ -12,29 +27,39 @@ header::before {
 }
 
 h1{
-    color: #1D1916;
-    font-size: 150px;
+    color: var(--color-black);
+    font-size: 9.375rem;
     font-weight: 400;
-    font-family: "Koulen","Montserrat", sans-serif;
-}
-
-.faixa{
-    content: "";
-    background-color: #89023E;
-    height: 15vh;
-    width: 100vw;
+    font-family: var(--font-title)
 }
 
 h2{
-    color: #ECE2D0;
-    font-size: 58px;
+    color: var(--color-body);
+    font-size: 3.625rem;
     font-weight:400;
-    font-family: "Mitr", sans-serif;
+    font-family: var(--font-subtitle)
 }
 
 p{
-    color: #ECE2D0;
-    font-size: 30px;
+    color: var(--color-body);
+    font-size: 1.875rem;
     font-weight: 400;
-    font-family: "Nanum Gothic Coding", "Poppins", monospace;
+    font-family: var(--font-body)
+}
+
+#faixa_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    content: "";
+    background-color: var(--color-destaque);
+    height: 24vh;
+    width: 100vw;
+}
+
+#secao-apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
