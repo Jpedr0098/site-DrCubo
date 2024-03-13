@@ -5,8 +5,8 @@
 - [ ] Header
     - [x] HTML
     - [x] CSS
-- [ ] Apresentação
-- [ ] Tutorial iniciante
+- [X] Apresentação
+- [X] Tutorial iniciante
 - [ ] Formulas avançadas
 - [ ] Cronometro
 - [ ] Footer

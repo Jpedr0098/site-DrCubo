@@ -97,12 +97,20 @@ p{
 #lista-links {
     display: flex;
     padding: 4rem;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #lista-links a{
     color: var(--color-black);
     font-size: 1.5rem;
     font-family: var(--font-body);
+}
+
+#lista-links img{
+    display: flex;
+    height: 24rem;
+    padding: 2rem;
 }
