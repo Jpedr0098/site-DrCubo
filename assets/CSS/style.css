@@ -17,7 +17,7 @@
 }
 
 header {
-    height: 100vh;
+    height: 125vh;
     width: 100vw;
 }
 
@@ -27,7 +27,7 @@ header::before {
     position: absolute;
     background-image: url("../images/header_DrCubo.png");
     background-size: cover;
-    height: 100vh;
+    height: 125vh;
     width: 100vw;
     z-index: -10;
 }
