@@ -53,6 +53,21 @@ p{
     font-family: var(--font-body)
 }
 
+img{
+    height: 9rem;
+}
+#logo-apresentacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    content: "";
+    background-color: var(--color-destaque);
+    height: 10rem;
+    width: 100vw;
+    gap: 2rem;
+}
+
 #faixa_logo {
     display: flex;
     flex-direction: column;
@@ -61,7 +76,7 @@ p{
     content: "";
     background-color: var(--color-destaque);
     height: 10rem;
-    width: 100vw;
+    width: auto;
 }
 
 #secao-apresentacao {
@@ -71,7 +86,7 @@ p{
     padding: 6rem;
 }
 
-#secao-tutorial{
+#secao-tutorial {
     display: flex;
     align-items: flex-start;
     padding: 4rem;
