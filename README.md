@@ -2,11 +2,16 @@
 
 ## Tarefas
 
-- [ ] Header
+- [x] Header
     - [x] HTML
     - [x] CSS
-- [X] Apresentação
-- [X] Tutorial iniciante
-- [ ] Formulas avançadas
-- [ ] Cronometro
+    - [X] Apresentação
+- [] Main
+    - [X] Tutorial iniciante
+    - [ ] Formulas avançadas
+        - [x] Navegação rápida
+        - [] F2L
+        - [] OLL
+        - [] PLL
+    - [ ] Cronometro
 - [ ] Footer
