@@ -118,10 +118,15 @@ img{
     justify-content: space-around;
 }
 
+#lista-links a:hover{
+    opacity: 0.5;
+}
+
 #lista-links a{
     color: var(--color-black);
     font-size: 1.5rem;
     font-family: var(--font-body);
+    transition: opacity .2s;
 }
 
 #lista-links img{
