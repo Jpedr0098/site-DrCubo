@@ -8,10 +8,17 @@
 </head>
 <body>
     <header>
-        <section id="logo-apresentacao">
-            <!-- Criar a logo certinha depois ou ver se no CSS tem como fazer a logo (Cubo magico ao lado da escrita)-->
-            <h1 id="faixa_logo">Dr.Cubo</h1>
-            <img src="./assets/images/cubo logo mania.png" alt="">
+        <section>
+            <div id="logo-apresentacao">
+                <h1>Dr.Cubo</h1>
+                <img src="./assets/images/cubo logo mania.png" alt="">
+            </div>
+            <div id="header-nav">
+                <nav>
+                    <a href="#secao-tutorial">Metodos básicos</a>
+                    <a href="#secao-tutorial-avancado">Metodos Avançados</a>        
+                </nav>
+            </div>         
         </section>
         <section id="secao-apresentacao">
             <h2>Como resolver</h2>
@@ -20,7 +27,7 @@
     </header>
     <main>
         <section id="secao-tutorial">
-            <div id="texto-tutorial">
+            <div class="texto-tutorial">
                 <h2>Tutorial com historias:</h2>
                 <p>O método de camadas com histórias é o mais simples para resolver o Cubo Mágico.</p>
                 <p>É muito fácil de aprender! Sem ter que ver formulas e metodos avançados que profisiionais utilizam e você irá se divertir bastante!</p>
@@ -78,6 +85,55 @@
                         <img src="./assets/images/cubo-Minerva.png" alt="cubo vendo a briga das linhas brancas e amarelas">
                     </a>
                 </li> <!-- 7°Etapa -->
+            </ul>
+        </section>
+        <section id="secao-tutorial-avancado">
+            <div class="texto-tutorial3">
+                <h2>Advanced methods</h2>
+            </div>
+            <ul class="texto-tutorial2">
+                <li>
+                    <a href="#secao-tutorial-avancado">
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <img src="./assets/images/f2l-avacado.png" alt="">
+                            </div>
+                            <div class="card-text">
+                                <h2>Metodos F2L</h2>
+                                <p>Fazendo as duas primeiras camadas juntas!</p>
+                                <p>*41 fórmulas</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#secao-tutorial-avancado">
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <img src="./assets/images/oll-avancado.png" alt="">
+                            </div>
+                            <div class="card-text">
+                                <h2>Metodos OLL</h2>
+                                <p>Fazendo a face amarela de uma vez só!</p>
+                                <p>*57 fórmulas</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#secao-tutorial-avancado">
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <img src="./assets/images/pll-avancado.png" alt="">
+                            </div>
+                            <div class="card-text">
+                                <h2>Metodos PLL</h2>
+                                <p>Finalização do cubo mágico.</p>
+                                <p>*21 fórmulas</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
             </ul>
         </section>
     </main>
