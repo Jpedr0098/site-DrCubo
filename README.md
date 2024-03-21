@@ -6,12 +6,12 @@
     - [x] HTML
     - [x] CSS
     - [X] Apresentação
-- [] Main
+- [ ] Main
     - [X] Tutorial iniciante
     - [ ] Formulas avançadas
         - [x] Navegação rápida
-        - [] F2L
-        - [] OLL
-        - [] PLL
+        - [ ] F2L
+        - [ ] OLL
+        - [ ] PLL
     - [ ] Cronometro
 - [ ] Footer
