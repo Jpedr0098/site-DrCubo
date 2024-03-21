@@ -140,6 +140,9 @@ img{
 }
 
 #secao-tutorial-avancado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: var(--color-destaque);
     height: 100vh;
 }
@@ -150,11 +153,36 @@ img{
     place-items: center;
     list-style: none;
     padding: 20px;
+    margin-top: 5rem;
 }
 #secao-tutorial-avancado h2{
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+
+#advancedF2L ul{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    list-style: none;
+    padding: 20px;
+    margin-top: 5rem;
+}
+
+#advancedF2L li{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    list-style: none;
+    padding: 20px;
+    margin-top: 5rem;
+}
+
+#advancedF2L img{
+    max-width: 200px;
+    height: 200px;
+    position: relative;
 }
 
 .card{
