@@ -162,13 +162,13 @@ p{
     padding: 20px;
 }
 
-#advancedF2L{
+.advanced{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#advancedF2L ul{
+.advanced ul{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     place-items: center;
@@ -180,7 +180,7 @@ p{
     margin-right: 16rem;
 }
 
-#advancedF2L li{
+.advanced li{
     display: flex;
     flex-direction: column;
     place-items: center;
@@ -188,110 +188,20 @@ p{
     padding: 20px;
 }
 
-#advancedF2L img{
+.advanced img{
     max-width: 160px;
     height: 160px;
     position: relative;
 }
 
-#advancedF2L h2{
+.advanced h2{
     color: var(--color-black);
     font-size: 3.625rem;
     font-family: var(--font-subtitle);
     margin-top: 5rem;
 }
 
-#advancedF2L p{
-    font-family: var(--font-body);
-    font-size: 1.2rem;
-    color: var(--color-black);
-}
-
-#advancedOLL{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#advancedOLL ul{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    place-items: center;
-    align-items: start;
-    list-style: none;
-    padding: 20px;
-    margin-top: 5rem;
-    margin-left: 16rem;
-    margin-right: 16rem;
-}
-
-#advancedOLL li{
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    list-style: none;
-    padding: 20px;
-}
-
-#advancedOLL img{
-    max-width: 160px;
-    height: 160px;
-    position: relative;
-}
-
-#advancedOLL h2{
-    color: var(--color-black);
-    font-size: 3.625rem;
-    font-family: var(--font-subtitle);
-    margin-top: 5rem;
-}
-
-#advancedOLL p{
-    font-family: var(--font-body);
-    font-size: 1.2rem;
-    color: var(--color-black);
-}
-
-#advancedPLL{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#advancedPLL ul{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    place-items: center;
-    align-items: start;
-    list-style: none;
-    padding: 20px;
-    margin-top: 5rem;
-    margin-left: 16rem;
-    margin-right: 16rem;
-}
-
-#advancedPLL li{
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    list-style: none;
-    padding: 20px;
-}
-
-#advancedPLL img{
-    max-width: 160px;
-    height: 160px;
-    position: relative;
-}
-
-#advancedPLL h2{
-    color: var(--color-black);
-    font-size: 3.625rem;
-    font-family: var(--font-subtitle);
-    margin-top: 5rem;
-}
-
-#advancedPLL p{
+.advanced p{
     font-family: var(--font-body);
     font-size: 1.2rem;
     color: var(--color-black);
