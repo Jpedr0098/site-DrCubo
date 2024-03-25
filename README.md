@@ -10,8 +10,8 @@
     - [X] Tutorial iniciante
     - [ ] Formulas avançadas
         - [x] Navegação rápida
-        - [ ] F2L
-        - [ ] OLL
+        - [x] F2L
+        - [x] OLL
         - [ ] PLL
     - [ ] Cronometro
 - [ ] Footer
