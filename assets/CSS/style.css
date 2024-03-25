@@ -393,3 +393,8 @@ img{
 .btn:hover::after {
     margin-top:-8px;
 }
+
+.espaçamento{
+    grid-column: 1/6;
+    height: 5rem;
+}
