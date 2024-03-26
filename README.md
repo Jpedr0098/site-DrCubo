@@ -8,10 +8,10 @@
     - [X] Apresentação
 - [ ] Main
     - [X] Tutorial iniciante
-    - [ ] Formulas avançadas
+    - [x] Formulas avançadas
         - [x] Navegação rápida
         - [x] F2L
         - [x] OLL
-        - [ ] PLL
+        - [x] PLL
     - [ ] Cronometro
-- [ ] Footer
+- [x] Footer
