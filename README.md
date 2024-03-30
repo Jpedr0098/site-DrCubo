@@ -14,12 +14,13 @@
     - [x] HTML
     - [x] CSS
     - [X] Apresentação
-- [ ] Main
+- [x] Main
     - [X] Tutorial iniciante
     - [x] Formulas avançadas
         - [x] Navegação rápida
         - [x] F2L
         - [x] OLL
         - [x] PLL
-    - [ ] Cronometro (site externo por enquanto)
+    - [x] Cronometro (site externo por enquanto)
+    - [x] Formulario previsõa de média de tempo (protipo/proposta de aula)
 - [x] Footer
