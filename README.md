@@ -3,7 +3,7 @@
 ## Criadores
 João Pedro de Carvalho Maurano - https://github.com/Jpedr0098
 
-Pedro Henrique Saller - https://github.com/PedroHenriqueSalles
+Pedro Henrique Salles - https://github.com/PedroHenriqueSalles
 
 ## Obejetivos do site
 
