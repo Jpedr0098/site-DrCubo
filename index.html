@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Cubo</title>
     <link rel="stylesheet" href="./assets/CSS/style.css">
+    <script src="./assets/JS/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -798,15 +799,15 @@
         </section>
         <section id="tempo-exec">
             <h2>Faça uma previsão de quanto será sua média de tempo</h2>
+            <p>*Obs: Essa média não reflete a realidade! Uma vez que esse questionario é um prototipo/uma proposta de aula.</p>
             <form action="">
-
                 <div class="campo linha">
                     <label for="" class="texto-forms">Você é iniciante?</label>
                     <div>
-                        <input type="radio" id="prototipo_sim" name="prototipo">
-                        <label for="prototipo_sim">Sim, sou iniciante</label>
-                        <input type="radio" id="prototipo_nao" name="prototipo">
-                        <label for="prototipo_nao">Não, já tenho um conhecimento</label>
+                        <input type="radio" id="iniciante_sim" name="iniciante" checked>
+                        <label for="iniciante_sim">Sim, sou iniciante</label>
+                        <input type="radio" id="iniciante_nao" name="iniciante">
+                        <label for="iniciante_nao">Não, já tenho um conhecimento</label>
                     </div>
                 </div>
                 <div id="quantidade-formulas" class="campo">
@@ -828,11 +829,15 @@
                 </div>
 
                 <div class="campo linha">
-                    <label for="pratica" class="texto-forms">Nivel de prática por mês:</label>
-                    <input type="range" id="pratica" min="1" max="10">
+                    <div class="linha">
+                        <label for="pratica" class="texto-forms">Nivel de prática:</label>
+                        <output id="pratica-text">Raramente</output>
+                    </div>
+                    <input type="range" id="pratica" min="1" max="9" value="1">
                 </div>
 
-                <input type="button" value="Calcular" class="btn-forms">
+                <input type="button" value="Calcular" id="btn-calcula" class="btn-forms">
+                <output id="tempo-estimado"></output>
             </form>
         </section>
     </main>
