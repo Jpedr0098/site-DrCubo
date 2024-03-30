@@ -1,5 +1,9 @@
 # DrCubo - Site
 
+## Criadores
+João Pedro de Carvalho Maurano - https://github.com/Jpedr0098
+Pedro Henrique Saller - https://github.com/PedroHenriqueSalles
+
 ## Obejetivos do site
 
 - O site tem como objetivo principal o aprendizado de HTML5, CSS e JavaScript nas aulas de "ADVANCED PROGRAMMING & MOBILE DEV" sendo um projeto de primeiro contato com as linguagens e com Web Desing! Sendo uma página unica de um tema escolhido pela dupla do projeto.
