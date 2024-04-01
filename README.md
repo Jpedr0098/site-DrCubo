@@ -27,5 +27,5 @@ Pedro Henrique Salles - https://github.com/PedroHenriqueSalles
         - [x] OLL
         - [x] PLL
     - [x] Cronometro (site externo por enquanto)
-    - [x] Formulario previsõa de média de tempo (protipo/proposta de aula)
+    - [x] Formulario previsão de média de tempo (protipo/proposta de aula)
 - [x] Footer
